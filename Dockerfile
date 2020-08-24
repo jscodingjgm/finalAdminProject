@@ -3,7 +3,7 @@ FROM node:12
 # Create app directory
 WORKDIR /usr/src/app
 
-ENV PORT=3000
+ENV PORT=4001
 ENV MONGODB_URL=mongodb://localhost:27017/update24DB
 ENV JWT_KEY=MarvelNewsAuth2020
 
